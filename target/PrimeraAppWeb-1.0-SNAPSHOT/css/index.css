@@ -1,5 +1,5 @@
 .bg-login-image{
-    background: url('../img/images.jpg');
+    background: url('../img/bg-login.jpg');
     background-position: center;
     background-size: cover;
     bottom: 0px;
@@ -104,15 +104,12 @@
   transition: bottom ease-in-out 0.4s;
 }
 
-.img-fluid{
-    height: 300px !important;
-}
 
 
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/fondo.png") top center;
+  background: url("../img/galery2.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;

@@ -15,14 +15,14 @@ public class Alquiler {
     private String username;
     private Date fecha;
     private boolean novedad;
-    private String genero;
+    private String modelo;
 
-    public Alquiler(int id, String username, Date fecha, boolean novedad, String genero) {
+    public Alquiler(int id, String username, Date fecha, boolean novedad, String modelo) {
         this.id = id;
         this.username = username;
         this.fecha = fecha;
         this.novedad = novedad;
-        this.genero = genero;   
+        this.modelo = modelo;   
     }
 
     public int getId() {
@@ -57,17 +57,17 @@ public class Alquiler {
         this.novedad = novedad;
     }
 
-    public String getGenero() {
-        return genero;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
     @Override
     public String toString() {
-       return "Alquiler{" + "id=" + id + ", username=" + username + ", fecha=" + fecha + ", novedad=" + novedad + ", genero=" + genero + '}';
+       return "Alquiler{" + "id=" + id + ", username=" + username + ", fecha=" + fecha + ", novedad=" + novedad + ", modelo=" + modelo + '}';
     }
     
 } 

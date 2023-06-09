@@ -1,6 +1,14 @@
-beans\Usuario.class
-beans\Alquiler.class
+controller\IBicicletaController.class
+servlets\ServletUsuarioPedir.class
 beans\Bicicleta.class
+controller\IUsuarioController.class
 servlets\PruebaServlet.class
+servlets\ServletUsuarioRegister.class
+controller\BicicletaController.class
+servlets\ServletBicicletaListar.class
+beans\Usuario.class
+controller\UsuarioController.class
+beans\Alquiler.class
 test\OperacionesBD.class
+servlets\ServletUsuarioLogin.class
 connection\DBConnection.class
